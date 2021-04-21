@@ -26,7 +26,7 @@ class dataService {
   }
 
   findByTitle(title) {
-    return http.get(`/coments?title=${title}`);
+    return http.get(`/comments?title=${title}`);
   }
 }
 

@@ -6,6 +6,7 @@ import login from './components/Login.vue'
 import signup from './components/Signup.vue'
 import page from './components/Page.vue'
 import comment from './components/Comment.vue'
+import addcomment from './components/AddComment.vue'
 
 Vue.use (Router)
 
@@ -16,6 +17,7 @@ export default new Router ({
     {path:'/login', component: login},
     {path:'/signup', component: signup},
     {path:'/comment', component: comment},
-    {path:'/page', component: page}
+    {path:'/page', component: page},
+    {path:'/addcomment', component: addcomment}
   ]
 })

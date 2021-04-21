@@ -11,7 +11,7 @@ const commentCtrl = require('../controllers/comment')
 const auth = require('../middleware/auth')//authentification JsonWebToken
 const multer = require('../middleware/multer-config')//gestion des images
 
-router.get('/', commentCtrl.getAllComments) //router.get('/', auth, commentCtrl.getAllComments)
+router.get('/', auth, commentCtrl.getAllComments) //router.get('/', auth, commentCtrl.getAllComments)
 
 router.post('/', auth, multer, commentCtrl.createComment)
 

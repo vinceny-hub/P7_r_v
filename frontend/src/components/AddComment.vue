@@ -19,7 +19,7 @@
 
 import axios from 'axios'
 export default {
-    name:'page',
+    name:'addcomment',
     data(){
        return{
         //  comment:{         
@@ -53,51 +53,3 @@ export default {
           }
 }
 }
-    
-        
-        
-
-
-        // console.log(response)
-    
-    
-    
-
- 
-</script>
-
-<style>
-
-  * {
-	box-sizing:border-box;
-	margin:0;
-	padding:0;
-  
-}
-  body{
-     width: 100vw;
-     height: 100%;
-     border: 0.1vw black solid;
-         
-      }
-   
-  #newCommentBox{
-    width: 220px;
-    height: 100px;
-    margin-top: 50px;
-    margin-left: 40vw;
-    border: 0.2vw black solid;
-
-  
-  }
-
-  
-      #createNewCommment{
-        margin-top: 50px;
-        margin-left:50px;
-        margin-bottom: 0px;
-      }
-
-    
-</style>
-    
