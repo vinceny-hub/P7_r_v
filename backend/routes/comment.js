@@ -25,3 +25,10 @@ router.post('/:id/like', auth, commentCtrl.likeComment);
 
 module.exports = router
 
+
+// postRoutes.route('/delete/:id').delete(function (req, res) {
+//     Post.findByIdAndRemove({_id: req.params.id}, function(err){
+//         if(err) res.json(err);
+//         else res.json('Successfully removed');
+//     });
+// });

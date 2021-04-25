@@ -27,10 +27,10 @@ module.exports = (req, res, next) => {
 //   }
 // };{
 	// "userId": "607202a2324d6a29f435385e"
-  let userId = '607202a2324d6a29f435385e'
-  let userId2 = '607202a2324d6a29f435385e'
-	let token1 = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDcyMDJhMjMyNGQ2YTI5ZjQzNTM4NWUiLCJpYXQiOjE2MTg5NDY3MjIsImV4cCI6MTYxOTAzMzEyMn0.DsVaKjCa9orsdqiXXcdkG9WU0DJMiS9isTch1mC3KOc'
-  let token2 =  'DsVaKjCa9orsdqiXXcdkG9WU0DJMiS9isTch1mC3KOc'
+  // let userId = '607202a2324d6a29f435385e'
+  // let userId2 = '607202a2324d6a29f435385e'
+	// let token1 = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDcyMDJhMjMyNGQ2YTI5ZjQzNTM4NWUiLCJpYXQiOjE2MTg5NDY3MjIsImV4cCI6MTYxOTAzMzEyMn0.DsVaKjCa9orsdqiXXcdkG9WU0DJMiS9isTch1mC3KOc'
+  // let token2 =  'DsVaKjCa9orsdqiXXcdkG9WU0DJMiS9isTch1mC3KOc'
 
 
 try {
